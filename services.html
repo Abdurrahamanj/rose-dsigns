@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services & Solutions — RoseDsigns | Luxury Creative & Digital Studio</title>
+  <meta name="description" content="Explore RoseDsigns' creative disciplines: bespoke website design, brand identity systems, social media management, SEO, and cinematic video production.">
+  <meta name="author" content="RoseDsigns">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/webp" href="assets/logo/transparent-monogram.webp">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Scroll Progress Bar -->
+  <div class="scroll-progress-bar" id="scrollProgressBar" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader" role="banner">
+    <div class="container container-wide header-inner">
+      <a href="index.html" class="brand-link" aria-label="RoseDsigns Home">
+        <img src="assets/logo/transparent-monogram.webp" alt="RoseDsigns Monogram" class="brand-monogram" width="52" height="52">
+        <div class="brand-text">
+          <span class="brand-name">Rose<span>D</span>signs</span>
+          <span class="brand-tagline">Brands that Bloom</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="portfolio.html" class="nav-link">Our Work</a>
+        <a href="services.html" class="nav-link active" aria-current="page">Services</a>
+        <a href="about.html" class="nav-link">The Studio</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-cta-group">
+        <a href="contact.html" class="btn btn-primary btn-sm">Let’s Create <span>↗</span></a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobileNavDrawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav-drawer" id="mobileNavDrawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home <span>01</span></a>
+      <a href="portfolio.html" class="mobile-nav-link">Our Work <span>02</span></a>
+      <a href="services.html" class="mobile-nav-link active">Services <span>03</span></a>
+      <a href="about.html" class="mobile-nav-link">The Studio <span>04</span></a>
+      <a href="contact.html" class="mobile-nav-link">Contact <span>05</span></a>
+    </div>
+    <div class="mobile-drawer-footer">
+      <p>Direct Inquiries: <a href="mailto:admin@rosedsigns.com" style="color:var(--ivory);text-decoration:underline;">admin@rosedsigns.com</a></p>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Subpage Hero -->
+    <section class="subpage-hero">
+      <div class="container">
+        <span class="eyebrow" style="color:var(--gold-light);justify-content:center;">OUR EXPERTISE & DISCIPLINES</span>
+        <h1>Considered creativity.<br><em>Connected expertise.</em></h1>
+        <p class="lead">
+          We offer a comprehensive suite of creative design and web development disciplines engineered to establish, differentiate, and scale your brand.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Detailed Breakdown -->
+    <section class="section" style="background-color:var(--ivory);">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">WHAT WE DELIVER</span>
+          <h2>Tailored services for ambitious brands.</h2>
+          <p class="section-subtitle">
+            Every service is executed with deep strategic intent and immaculate visual polish.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Brand Identity -->
+          <article class="service-card" id="brand-identity" style="background:var(--navy);color:var(--ivory);">
+            <div class="service-card-top">
+              <span class="service-number">01</span>
+              <div class="service-icon-box">✦</div>
+            </div>
+            <h3 class="service-title">Brand Identity & Strategy</h3>
+            <p class="service-desc">
+              Your identity is your brand's lasting promise. We define timeless logo systems, botanical and geometric monograms, color theory palettes, and complete brand guideline manuals.
+            </p>
+            <ul class="service-deliverables">
+              <li>Primary logo, secondary marks & monogram icons</li>
+              <li>Official brand style guide & color architecture</li>
+              <li>Typography selection & editorial hierarchy</li>
+              <li>Tone of voice & brand story articulation</li>
+            </ul>
+            <div class="service-card-action">
+              <a href="contact.html" class="btn btn-gold btn-sm" data-select-service="Brand Identity & Strategy">
+                Inquire About Branding <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service 2: Website Design -->
+          <article class="service-card" id="website-design" style="background:var(--navy);color:var(--ivory);">
+            <div class="service-card-top">
+              <span class="service-number">02</span>
+              <div class="service-icon-box">❖</div>
+            </div>
+            <h3 class="service-title">Website Design & Development</h3>
+            <p class="service-desc">
+              Bespoke, high-performance web experiences designed to showcase your hospitality, retail, or entertainment portfolio with effortless grace and speed.
+            </p>
+            <ul class="service-deliverables">
+              <li>Custom responsive web layouts (Mobile-First)</li>
+              <li>Lightweight, accessible HTML5 / CSS3 / Vanilla JS</li>
+              <li>Restaurant menus, inquiry funnels & booking UX</li>
+              <li>Cross-browser testing & Core Web Vitals optimization</li>
+            </ul>
+            <div class="service-card-action">
+              <a href="contact.html" class="btn btn-gold btn-sm" data-select-service="Website Design & Development">
+                Inquire About Web Design <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service 3: Digital Marketing & SEO -->
+          <article class="service-card" id="digital-marketing" style="background:var(--navy);color:var(--ivory);">
+            <div class="service-card-top">
+              <span class="service-number">03</span>
+              <div class="service-icon-box">▲</div>
+            </div>
+            <h3 class="service-title">Digital Marketing & SEO</h3>
+            <p class="service-desc">
+              Connecting your digital flagship with paying customers. Targeted on-page search engine optimization, technical metadata, and local map discovery.
+            </p>
+            <ul class="service-deliverables">
+              <li>Keyword research & on-page search optimization</li>
+              <li>Google Search Console & local search visibility</li>
+              <li>Conversion rate optimization & landing page architecture</li>
+              <li>Competitor benchmarking & search visibility reports</li>
+            </ul>
+            <div class="service-card-action">
+              <a href="contact.html" class="btn btn-gold btn-sm" data-select-service="Digital Marketing & SEO">
+                Inquire About SEO <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service 4: Social Media Management -->
+          <article class="service-card" id="social-media" style="background:var(--navy);color:var(--ivory);">
+            <div class="service-card-top">
+              <span class="service-number">04</span>
+              <div class="service-icon-box">✿</div>
+            </div>
+            <h3 class="service-title">Social Media Management & Reels</h3>
+            <p class="service-desc">
+              From festival announcements to daily food stories. We manage, plan, and produce aesthetic social content that captivates audiences across Instagram and Facebook.
+            </p>
+            <ul class="service-deliverables">
+              <li>Monthly content calendar & creative direction</li>
+              <li>High-engagement Instagram & Facebook Reels</li>
+              <li>Story designs, carousel posts & copywriting</li>
+              <li>Profile visual aesthetic & highlight icons</li>
+            </ul>
+            <div class="service-card-action">
+              <a href="contact.html" class="btn btn-gold btn-sm" data-select-service="Social Media Management">
+                Inquire About Social Media <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service 5: Graphic Design -->
+          <article class="service-card" id="graphic-design" style="background:var(--navy);color:var(--ivory);">
+            <div class="service-card-top">
+              <span class="service-number">05</span>
+              <div class="service-icon-box">◈</div>
+            </div>
+            <h3 class="service-title">Graphic Design & Creative Collateral</h3>
+            <p class="service-desc">
+              Tactile and digital collateral that reinforces your prestige. Elegant restaurant menus, promotional flyers, cinema posters, and packaging design.
+            </p>
+            <ul class="service-deliverables">
+              <li>Print & digital menus for culinary dining</li>
+              <li>Event, festival & theatrical promotional posters</li>
+              <li>Bespoke packaging design & merchandise collateral</li>
+              <li>Digital advertising banners & promotional assets</li>
+            </ul>
+            <div class="service-card-action">
+              <a href="contact.html" class="btn btn-gold btn-sm" data-select-service="Graphic Design & Creative Assets">
+                Inquire About Graphic Design <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service 6: Content Creation & Video -->
+          <article class="service-card" id="content-creation" style="background:var(--navy);color:var(--ivory);">
+            <div class="service-card-top">
+              <span class="service-number">06</span>
+              <div class="service-icon-box">▶</div>
+            </div>
+            <h3 class="service-title">Content Creation & Video Production</h3>
+            <p class="service-desc">
+              Cinematic short-form video that commands attention. Sound editing, color grading, motion graphics, and theatrical cinema teasers.
+            </p>
+            <ul class="service-deliverables">
+              <li>Theatrical trailer editing & teaser clips</li>
+              <li>Culinary & hospitality video showcases</li>
+              <li>Soundtrack pairing, voiceover & audio mastering</li>
+              <li>Multi-aspect ratio formatting (9:16, 16:9, 1:1)</li>
+            </ul>
+            <div class="service-card-action">
+              <a href="contact.html" class="btn btn-gold btn-sm" data-select-service="Content Creation & Video Production">
+                Inquire About Video <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service 7: Google Business Profile Management -->
+          <article class="service-card" style="background:var(--navy);color:var(--ivory);">
+            <div class="service-card-top">
+              <span class="service-number">07</span>
+              <div class="service-icon-box">📍</div>
+            </div>
+            <h3 class="service-title">Google Business Profile Growth</h3>
+            <p class="service-desc">
+              Dominate local map searches. Complete verification, category tuning, photo updates, location synchronization, and review management workflows.
+            </p>
+            <ul class="service-deliverables">
+              <li>Profile optimization & location accuracy</li>
+              <li>High-res menu & venue photo syndication</li>
+              <li>Customer review strategies & support</li>
+              <li>Local map pack discovery & analytics</li>
+            </ul>
+            <div class="service-card-action">
+              <a href="contact.html" class="btn btn-gold btn-sm" data-select-service="Google Business Profile">
+                Inquire About Local Growth <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service 8: WhatsApp & Business Automation -->
+          <article class="service-card" style="background:var(--navy);color:var(--ivory);">
+            <div class="service-card-top">
+              <span class="service-number">08</span>
+              <div class="service-icon-box">💬</div>
+            </div>
+            <h3 class="service-title">WhatsApp & Inquiry Integration</h3>
+            <p class="service-desc">
+              Turn website visitors into immediate direct conversations. Branded click-to-chat links, table booking inquiry paths, and QR code collateral.
+            </p>
+            <ul class="service-deliverables">
+              <li>Direct WhatsApp inquiry triggers on website</li>
+              <li>Custom QR codes for in-store tables and menus</li>
+              <li>Automated welcome flows & inquiry templates</li>
+              <li>Seamless connection between campaigns & chat</li>
+            </ul>
+            <div class="service-card-action">
+              <a href="contact.html" class="btn btn-gold btn-sm" data-select-service="WhatsApp Integration">
+                Inquire About Automation <span>↗</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Accordion Section -->
+    <section class="section" style="background-color:var(--ivory-warm);">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow">COMMON QUESTIONS</span>
+          <h2>Frequently Asked Questions</h2>
+          <p class="section-subtitle">
+            Insights on how we collaborate, project timelines, deliverables, and expectations.
+          </p>
+        </div>
+
+        <div class="faq-accordion">
+          <div class="faq-item active">
+            <button class="faq-question" type="button">
+              <span>What is the typical timeline for a custom website?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                A bespoke website typically takes 3 to 6 weeks depending on the scope of pages, custom photography/assets, and specific booking or menu integration requirements. We provide a detailed week-by-week timeline during the initial Strategy phase.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Do you provide brand identity and logo design independently?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes. While many clients engage us for unified branding and website development, we frequently craft complete visual identity packages—including logos, color palettes, typography rules, and guidelines—for new startups and established refreshes.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Why do you prefer lightweight Vanilla code over bulky template builders?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Bulky page builders often produce bloated code that slows down load times, impairs mobile usability, and hurts SEO rankings. Our clean, semantic HTML5, CSS3, and Vanilla JavaScript approach guarantees lightning-fast loading, superior security, zero plugin breakages, and total creative freedom.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>Can you handle our social media reels and ongoing marketing?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Absolutely. We provide monthly retainer packages covering social media content planning, reel production, festival graphics, and Google Business updates to ensure your brand consistently blooms across digital channels.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" type="button">
+              <span>How do we get started?</span>
+              <span class="faq-toggle-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                You can begin by using our interactive Project Brief Builder on the Contact page, or by emailing us directly at admin@rosedsigns.com. We will review your goals and schedule a discovery consultation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom CTA -->
+    <section class="section" style="background:var(--navy);color:var(--ivory);text-align:center;padding:5rem 0;">
+      <div class="container">
+        <span class="eyebrow" style="color:var(--gold-light);justify-content:center;">START YOUR PROJECT</span>
+        <h2 style="color:var(--ivory);margin-bottom:1.5rem;">Have a specific requirement in mind?</h2>
+        <p style="color:rgba(247,243,236,0.8);max-width:560px;margin:0 auto 2.5rem;font-size:1.1rem;">
+          Tell us about your brand. We will formulate a tailored proposal and deliverables package.
+        </p>
+        <a href="contact.html" class="btn btn-gold btn-lg">Build Your Project Brief <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <a href="index.html" class="brand-link" aria-label="RoseDsigns Home">
+            <img src="assets/logo/transparent-monogram.webp" alt="RoseDsigns Logo" class="brand-monogram" width="48" height="48">
+            <div class="brand-text">
+              <span class="brand-name" style="color:var(--ivory);">Rose<span>D</span>signs</span>
+              <span class="brand-tagline" style="color:var(--gold-light);">Brands that Bloom</span>
+            </div>
+          </a>
+          <p>
+            A high-end creative and digital studio specializing in distinctive brand identities, bespoke websites, and connected marketing campaigns.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">The Studio</a></li>
+            <li><a href="portfolio.html">Selected Work</a></li>
+            <li><a href="services.html">Services & Packages</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Disciplines</h4>
+          <ul class="footer-links-list">
+            <li><a href="services.html#brand-identity">Brand Identity</a></li>
+            <li><a href="services.html#website-design">Website Development</a></li>
+            <li><a href="services.html#digital-marketing">Digital Marketing & SEO</a></li>
+            <li><a href="services.html#social-media">Social Media & Reels</a></li>
+            <li><a href="services.html#graphic-design">Graphic Design</a></li>
+            <li><a href="services.html#content-creation">Content & Video</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-contact-info">
+          <h4 class="footer-heading">Studio Inquiries</h4>
+          <p>Direct Email:<br><a href="mailto:admin@rosedsigns.com">admin@rosedsigns.com</a></p>
+          <p>Locations:<br><span style="color:var(--ivory);">Chennai, India · Perth, Australia</span></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p>© <span class="dynamic-year">2026</span> RoseDsigns. All rights reserved. Ideas that make your brand bloom.</p>
+        <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top of page">
+          Back to Top <span>↑</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
